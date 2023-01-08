@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+   
+}
+header{
+	width:100%;
+	height:100vh;
+	background-image:url('images/back.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}
+.main
+{
+    width:100%;
+	height:100px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.main .logo img
+{
+	height:500px;
+	width:500px;
+}
+.main .logo img{
+	  
+		padding-top:200px;
+		padding-right:200px;
+}
+.main nav a{
+	
+	width:200px;
+	display:flex;
+	justify-content:space-around;
+    align-items:center;
+}
+.main nav a:link,a:visited{
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+}
+.main nav a:hover,a:active
+{
+  background-color:green;
+  color: black;
+}
+main
+{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+main .right-sec img
+{
+	width:500px;
+	height:750px;
+	padding-top:300px;
+	padding-bottom:110px;
+}
+main .left-sec{
+	padding-left:100px;
+}
+main .left-sec h1{
+	font-size:50px;
+	font-family:Fantasy;
+	color:green;
+	margin-top:150px;
+}
+main .left-sec h2
+{
+	font-size:30px;
+	font-family:"Times New Roman";
+	color:blue;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+main .left-sec p
+{
+	font-size:20px;
+	font-family:Lucida Console;
+	margin-top:10px;
+	color:black;
+	line-height:0.1;
+	
+}

@@ -1,0 +1,232 @@
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100vh;
+	background:url('images/w3.jpg');
+	background-repeat:no-repeat;
+    background-color:lightgreen;
+	}
+.menu .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ /* position:fixed;*/
+  left:1200px;
+  top:100px;
+}
+
+.menu .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.menu .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.menu .button:hover span {
+  padding-right: 25px;
+}
+.menu .button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.menu{
+	position:relative;
+	left:1250px;
+	top:200px;
+	display :inline-block;
+}
+.dropdown{
+  display:none;
+  position: absolute;
+  background-color:gray;
+  margin:0px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown a {
+  color: black;
+  padding: 12px 16px;
+  border:2px solid gold;
+  margin:10px;
+  text-decoration:none;
+  display:block;
+}
+.dropdown a:hover {
+background-color:green;
+}
+.menu:hover .dropdown{
+  display: block;
+}
+.menu:hover .button{
+	background-color:green;
+}
+.tit p{
+	color:white;
+	font-size:80px;
+	position:absolute;
+	left:350px;
+	font-family:serif;
+}
+.cat h1{
+	position:absolute;
+	top:300px;
+	left:600px;
+	color:RED;
+	background-image:url('images/veg/v1.jpg');
+}
+.lis img
+{
+	max-height:300px;
+	max-width:300px;
+	margin:100px;
+}
+.lis{
+	position:relative;
+	top:200px;
+}
+.mat1{
+	position:absolute;
+	top:680px;
+	left:150px;
+	margin:20px;
+}
+.mat2{
+	position:absolute;
+	top:680px;
+	left:600px;
+	margin:20px;
+}
+.mat3{
+	position:absolute;
+	top:680px;
+	left:1200px;
+	margin:20px;
+}
+.mat4{
+	position:absolute;
+	top:1100px;
+	left:100px;
+	margin:20px;
+}
+.mat5{
+	position:absolute;
+	top:1100px;
+	left:700px;
+	margin:20px;
+}
+
+.cat1 h1{
+	position:absolute;
+	top:1350px;
+	left:600px;
+	color:RED;
+	background-image:url('images/veg/v1.jpg');
+}
+.lis1{
+	position:relative;
+	top:400px;
+}
+.lis1 img
+{
+	max-height:300px;
+	max-width:300px;
+	margin:100px;
+}
+.fmat1{
+	position:relative;
+	bottom:100px;
+	left:150px;
+	margin:20px;
+}
+.fmat2{
+	position:relative;
+	bottom:240px;
+	left:700px;
+	margin:20px;
+}
+.fmat3{
+	position:relative;
+	bottom:380px;
+	left:1200px;
+	margin:20px;
+}
+.fmat4{
+	position:relative;
+	bottom:150px;
+	left:150px;
+	margin:20px;
+}
+.add a{
+	position:relative;
+	left:1200px;
+	width:200px;
+	height:100px;
+	color:red;
+	border:2px solid black;
+	background-color:powderblue;
+	text-decoration:none;
+	font-size:20px;;
+}
+.add a:hover {
+	background-color:green;
+	cursor:pointer;
+}
+.add1 a{
+	position:relative;
+	bottom:400px;
+	left:1200px;
+	width:200px;
+	height:50px;
+	color:red;
+	border:2px solid black;
+	background-color:powderblue;
+	font-size:20px;
+	margin:20px;
+	text-decoration:none;
+}
+.add1 a:hover {
+	background-color:green;
+	cursor:pointer;
+}
+.end H1{
+	color:blue;
+	position:relative;
+	bottom:200px;
+	left:500px;
+}
+.end h2{
+	position:relative;
+	color:green;
+	bottom:200px;
+	left:500px;
+}
+.end p{
+	position:relative;
+	color:red;
+	font-size:20px;
+	bottom:200px;
+	left:500px;
+}
+.end img{
+	 position:relative;
+	 opacity:0.7;
+}
